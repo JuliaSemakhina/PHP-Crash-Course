@@ -37,8 +37,12 @@ echo '<br>';
 $strNumber = '12.34';
 $number = (int)$strNumber;
 var_dump($number);
+echo '<br>';
 // Number functions
-
+echo "abs(-15)" . abs(-15) . '<br>';
+echo "pow(2, 3)" . pow(2, 3) . '<br>';
 // Formatting numbers
-
+$number = 123456789.12345;//
+echo number_format($number, 2, ',', ' ');
+echo '<br>';
 // https://www.php.net/manual/en/ref.math.php
